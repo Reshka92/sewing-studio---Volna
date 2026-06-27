@@ -20,7 +20,7 @@
                     Услуги и цены
                 </a>
                 <a href="https://wa.me/79780403149" target="_blank" class="bg-transparent border border-white hover:bg-white hover:text-zinc-900 text-white font-medium px-8 py-4 rounded-lg transition text-center">
-                    Консультация в WhatsApp
+                    Консультация в Max
                 </a>
             </div>
         </div>
@@ -132,8 +132,8 @@
             
             <form action="{{ route('home.post')}}" method="POST" class="max-w-md mx-auto space-y-4">
                 @csrf
-                <input type="text" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#31469F] transition" id="name">
-                <input type="tel" id="number" placeholder="+7 (___) ___-__-__" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#31469F] transition">
+                <input type="text" name="name" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#31469F] transition" id="name">
+                <input type="tel" name="number"  id="number" placeholder="+7 (___) ___-__-__" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#31469F] transition">
                 <button type="submit" class="w-full bg-[#31469F] hover:bg-blue-800 text-white font-bold py-3 rounded-lg transition shadow-md">
                     Перезвонить мне
                 </button>

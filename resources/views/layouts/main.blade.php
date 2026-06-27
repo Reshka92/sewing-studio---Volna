@@ -20,11 +20,11 @@
             </div>
             
             <div class="header-buttons flex justify-center bg-[]">
-                <a href="#" class="mx-5 hover:text-blue-200 transition">Главная</a>
-                <a href="#" class="mx-5 hover:text-blue-200 transition">О нас</a>
-                <a href="#" class="mx-5 hover:text-blue-200 transition">Работы</a>
-                <a href="#" class="mx-5 hover:text-blue-200 transition">Цены</a>
-                <a href="#" class="mx-5 hover:text-blue-200 transition">Контакты</a>
+                <a href="{{route('home')}}" class="mx-5 hover:text-blue-200 transition">Главная</a>
+                <a href="{{route('about')}}" class="mx-5 hover:text-blue-200 transition">О нас</a>
+                <a href="{{route('works')}}" class="mx-5 hover:text-blue-200 transition">Работы</a>
+                <a href="{{route('prices')}}" class="mx-5 hover:text-blue-200 transition">Цены</a>
+                <a href="{{route('contacts')}}" class="mx-5 hover:text-blue-200 transition">Контакты</a>
             </div>
             
             <div class="contact-info text-right">
