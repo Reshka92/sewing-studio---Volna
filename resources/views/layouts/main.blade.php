@@ -1,40 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('header-title')</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+@extends('layouts/main')
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+{{-- Заголовок вкладки в браузере --}}
+@section('header-title', 'Наши работы / Сообщения')
 
-</head>
-<body class="font-roboto bg-gray-50 text-gray-800">
-    <header class="w-full bg-[#31469F] text-white shadow-md"> 
-        <div class="container mx-auto flex items-center justify-between p-4">
-            
-            <div class="img-logo">
-                <span class="font-bold text-xl tracking-wider">ВОЛНА</span> 
-            </div>
-            
-            <div class="header-buttons flex justify-center bg-[]">
-                <a href="{{route('home')}}" class="mx-5 hover:text-blue-200 transition">Главная</a>
-                <a href="{{route('about')}}" class="mx-5 hover:text-blue-200 transition">О нас</a>
-                <a href="{{route('works')}}" class="mx-5 hover:text-blue-200 transition">Работы</a>
-                <a href="{{route('prices')}}" class="mx-5 hover:text-blue-200 transition">Цены</a>
-                <a href="{{route('contacts')}}" class="mx-5 hover:text-blue-200 transition">Контакты</a>
-            </div>
-            
-            <div class="contact-info text-right">
-                <h1 class="font-bold">+7978-040-31-49</h1>
-                <p class="text-sm text-blue-100">Хрусталёва 139</p>
-            </div>
-
+{{-- Основной контент страницы --}}
+@section('content')
+<div class="py-12 bg-gray-50 min-h-screen">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Заголовок на странице -->
+        <div class="text-center mb-12">
+            <h1 class="text-3xl font-extrabold text-gray-950 sm:text-4xl">
+                Список полученных заявок
+            </h1>
+            <p class="mt-2 text-sm text-gray-500">
+                Всего найдено записей в базе данных: {{ $messages->count() }}
+            </p>
         </div>
-    </header>
 
-    @yield('content')
-</body>
-</html>
+        <!-- Список карточек -->
+        <div class="space-y-4">
+            @foreach($messages as $message)
+                <div class="bg-white shadow-sm hover:shadow-md transition rounded-xl border border-gray-200 p-6 flex justify-between items-center">
+                    
+                    <div>
+                        <!-- Выводим Имя клиента -->
+                        <h3 class="text-lg font-bold text-[#31469F] flex items-center gap-2">
+                            <span>👤</span> {{ $message->name ?? 'Без имени' }}
+                        </h3>
+                        
+                        <!-- Выводим Номер -->
+                        <p class="mt-2 text-sm font-medium text-gray-600 flex items-center gap-2">
+                            <span class="text-gray-400">📞 Номер:</span> 
+                            <span class="text-gray-900 font-semibold">{{ $message->number }}</span>
+                        </p>
+                    </div>
+
+                    <!-- ID записи в углу -->
+                    <span class="text-xs font-semibold text-gray-400 bg-gray-100 px-3 py-1.5 rounded-lg border border-gray-200">
+                        ID: {{ $message->id }}
+                    </span>
+
+                </div>
+            @endforeach
+        </div>
+
+    </div>
+</div>
+@endsection
