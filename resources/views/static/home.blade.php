@@ -2,7 +2,6 @@
 @section('content')
 <main class="min-h-screen">
 
-    <!-- 1. ГЛАВНЫЙ БАННЕР (Возвращаем стильный темный цвет, как в прошлый раз) -->
     <section class="relative bg-[#1E295D] text-white py-24 px-4 overflow-hidden">
         <div class="absolute inset-0 opacity-40 bg-cover bg-center" style="background-image: url('/images/hero-tailoring.jpg');"></div>
         
@@ -15,7 +14,6 @@
                 Качественный ремонт и индивидуальный пошив одежды любой сложности на улице Хрусталёва. Вернем любимым вещам идеальный вид за 1-3 дня.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <!-- Кнопка с заливкой цвета #31469F -->
                 <a href="#services" class="bg-[#31469F] hover:bg-blue-800 text-white font-medium px-8 py-4 rounded-lg transition text-center shadow-lg">
                     Услуги и цены
                 </a>
@@ -26,7 +24,6 @@
         </div>
     </section>
 
-    <!-- 2. БЛОК ПРЕИМУЩЕСТВ -->
     <section class="py-12 bg-white border-b border-gray-100">
         <div class="container mx-auto max-w-6xl px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
@@ -55,7 +52,6 @@
         </div>
     </section>
 
-    <!-- 3. НАПРАВЛЕНИЯ РАБОТЫ -->
     <section id="services" class="py-20 bg-gray-50 px-4">
         <div class="container mx-auto max-w-6xl">
             <div class="text-center mb-16">
@@ -63,9 +59,7 @@
                 <p class="text-gray-500 max-w-md mx-auto">От мелкого ремонта до создания уникального образа по вашим меркам.</p>
             </div>
 
-            <!-- Сами 3 плашки -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                <!-- Карточка 1 -->
                 <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition overflow-hidden border border-gray-100 flex flex-col justify-between">
                     <div class="p-6">
                         <div class="text-3xl mb-4">✂️</div>
@@ -78,7 +72,6 @@
                     </div>
                 </div>
 
-                <!-- Карточка 2 -->
                 <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition overflow-hidden border border-gray-100 flex flex-col justify-between">
                     <div class="p-6">
                         <div class="text-3xl mb-4">🪡</div>
@@ -91,7 +84,6 @@
                     </div>
                 </div>
 
-                <!-- Карточка 3 -->
                 <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition overflow-hidden border border-gray-100 flex flex-col justify-between">
                     <div class="p-6">
                         <div class="text-3xl mb-4">🧥</div>
@@ -105,7 +97,6 @@
                 </div>
             </div>
 
-            <!-- НАДПИСЬ-ПРЕДУПРЕЖДЕНИЕ ТЕПЕРЬ ТУТ (ПОД ТРЕМЯ ПЛАШКАМИ) -->
             <div class="max-w-2xl mx-auto bg-amber-50 border border-amber-200 rounded-xl p-4 flex items-start gap-3 shadow-sm">
                 <span class="text-xl">⚠️</span>
                 <div>
@@ -115,31 +106,86 @@
                     </p>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <!-- 4. ЛИД-ФОРМА -->
     <section class="py-20 bg-blue-50/50 px-4">
         <div class="container mx-auto max-w-3xl bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-blue-100 text-center">
             <h2 class="text-2xl md:text-3xl font-bold mb-4">Узнайте стоимость ремонта онлайн</h2>
             <p class="text-gray-600 mb-8">Опишите, что нужно сделать. Мы проконсультируем вас по цене и материалам.</p>
             
-            
-            
-            
-            
-            
             <form action="{{ route('home.post')}}" method="POST" class="max-w-md mx-auto space-y-4">
                 @csrf
-                <input type="text" name="name" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#31469F] transition" id="name">
-                <input type="tel" name="number"  id="number" placeholder="+7 (___) ___-__-__" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#31469F] transition">
+                <input type="text" name="name" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#31469F] transition" id="name" required>
+                <input type="tel" name="number" id="number" placeholder="+7 (___) ___-__-__" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#31469F] transition" required>
                 <button type="submit" class="w-full bg-[#31469F] hover:bg-blue-800 text-white font-bold py-3 rounded-lg transition shadow-md">
                     Перезвонить мне
                 </button>
             </form>
         </div>
     </section>
+
+    @if(session('success'))
+        <div id="successModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 invisible opacity-0 transition-all duration-300">
+            <div id="modalOverlay" class="absolute inset-0 bg-zinc-900/60 backdrop-blur-sm"></div>
+            
+            <div id="modalContent" class="relative bg-white rounded-2xl p-8 max-w-md w-full text-center shadow-2xl border border-blue-50 transform scale-90 transition-all duration-300 opacity-0">
+                
+                <div class="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-emerald-100 text-emerald-600 text-3xl mb-4 animate-bounce">
+                    ✓
+                </div>
+                
+                <h3 class="text-2xl font-bold text-zinc-900 mb-2">Спасибо за заявку!</h3>
+                <p class="text-gray-600 mb-6">{{ session('success') }}</p>
+                
+                <button id="closeModalBtn" class="w-full bg-[#31469F] hover:bg-blue-800 text-white font-semibold py-3 px-6 rounded-lg transition shadow-md focus:outline-none">
+                    Отлично
+                </button>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const modal = document.getElementById('successModal');
+                const content = document.getElementById('modalContent');
+                const closeBtn = document.getElementById('closeModalBtn');
+                const overlay = document.getElementById('modalOverlay');
+
+                // Функция плавного открытия
+                function showModal() {
+                    modal.classList.remove('invisible');
+                    modal.classList.add('opacity-100');
+                    content.classList.remove('scale-90', 'opacity-0');
+                    content.classList.add('scale-100', 'opacity-100');
+                }
+
+                // Функция плавного закрытия
+                function hideModal() {
+                    modal.classList.remove('opacity-100');
+                    modal.classList.add('opacity-0');
+                    content.classList.remove('scale-100', 'opacity-100');
+                    content.classList.add('scale-90', 'opacity-0');
+                    
+                    // Ждем завершения CSS анимации (300мс) перед скрытием контейнера
+                    setTimeout(() => {
+                        modal.classList.add('invisible');
+                    }, 300);
+                }
+
+                // Запускаем показ с микро-задержкой для отработки CSS-переходов
+                setTimeout(showModal, 100);
+
+                // Слушатели событий на закрытие
+                closeBtn.addEventListener('click', hideModal);
+                overlay.addEventListener('click', hideModal);
+
+                // Закрытие по кнопке Esc
+                document.addEventListener('keydown', function(e) {
+                    if (e.key === 'Escape') hideModal();
+                });
+            });
+        </script>
+    @endif
 
 </main>
 @endsection
