@@ -27,6 +27,10 @@ return [
     'resend' => [
         'key' => env('RESEND_KEY'),
     ],
+    'vk' => [
+        'token' => env('VK_NOTIFICATION_TOKEN'),
+        'admin_id' => env('VK_ADMIN_ID'), 
+    ],
 
     'slack' => [
         'notifications' => [

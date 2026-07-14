@@ -40,7 +40,7 @@ public function submit(ContactRequest $request, VkNotificationService $vkService
     $message->name = $request->input('name');
     $message->number = $request->input('number');
     $message->save();
-    $adminId = config('services.vk.adminId');
+$adminId = config('services.vk.admin_id');
     $vkService->sendNotification(
             $adminId, 
             $message->name, 
