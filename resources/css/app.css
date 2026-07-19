@@ -2,4 +2,11 @@
 
 @theme {
     --font-roboto: "Roboto", sans-serif;
+    
+}
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('../views/fonts/Roboto_Condensed-Black.ttf') format('truetype');
+    font-weight: 900; /* Black вес обычно обозначается как 900 */
+    font-style: normal;
 }
