@@ -29,13 +29,13 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Вечернее платье в пол
+                       Платье индивидуального покроя
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Индивидуальный пошив элегантного вечернего платья из премиального шелка с открытой спиной. Идеальная посадка по фигуре и скрытые аккуратные швы.
+                        Индивидуальный пошив элегантного платья. Идеальная посадка по фигуре.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
-                        <span>🗓️ Срок: 7 дней</span>
+                        <span>🗓️ Срок: 14 дней</span>
                         <span class="font-medium text-blue-400 bg-blue-950 px-2.5 py-1 rounded-md border border-blue-800/50">Пошив платья</span>
                     </div>
                 </div>
@@ -49,10 +49,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Летнее шифоновое платье
+                        Платье вечернее из атласа
                     </h3>
-                    <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Легкое, воздушное повседневное платье с авторским принтом. Свободный крой, не стесняющий движений, и нежная дышащая подкладка.
+                    <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaЫxed">
+                        Легкое, воздушное повседневное платье. Свободный крой, не стесняющий движений, и нежная дышащая подкладка.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 4 дня</span>
@@ -69,10 +69,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Юбка-карандаш из костюмной ткани
+                        Декор одежды
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Строгая классическая юбка с завышенной талией и аккуратным шлицем сзади. Отличная основа для стильного делового или офисного гардероба.
+                        Декор одежды по пожеланиям клиента.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 3 дня</span>
@@ -90,10 +90,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Стильная юбка в складку
+                        Стильная юбка
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Трендовая плиссированная юбка средней длины из плотной качественной ткани. Держит форму после стирок и подчеркивает силуэт.
+                        Держит форму после стирок и подчеркивает силуэт.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 4 дня</span>
@@ -133,7 +133,7 @@
                         Удлиненный классический жилет
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Строгий жилет на подкладке из костюмной шерсти. Отлично садится по фигуре, держит четкую линию плеч и дополняет многослойные образы.
+                        Строгий жилет из искусственого меха по задумке клиента. Отлично садится по фигуре, держит четкую линию плеч и дополняет многослойные образы.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 4 дня</span>
@@ -151,10 +151,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Коктейльное платье с драпировкой
+                        Летнее платье
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Изящное платье длины миди со сложной драпировкой в области талии, выгодно подчеркивающей достоинства фигуры. Ткань — плотный атлас.
+                        Летнее платье в романтическом образе, выгодно подчеркивающей достоинства фигуры.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 6 дней</span>
@@ -172,10 +172,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Кастомная джинсовая куртка
+                         Джинсовая куртка
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Пошив куртки из плотного 100% хлопка (деним) оверсайз кроя. Фирменная металлическая фурнитура, прочные джинсовые швы и удобные карманы.
+                        Пошив куртки из плотного 100% хлопка (деним) оверсайз кроя.Прочные джинсовые швы и удобные карманы.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 8 дней</span>
@@ -192,10 +192,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Платье-футляр для деловых встреч
+                        Вечерние платье
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Строгое и лаконичное платье правильной длины. Моделирующие вытачки идеально садятся по фигуре, создавая сдержанный профессиональный образ.
+                       Вечерние платье белого цвета, идельно подчеркивающие фигуру клиента.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 5 дней</span>
@@ -213,10 +213,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Повседневное трикотажное платье
+                        Летнее льняное платье
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Уютное платье из мягкого качественного трикотажа. Отлично переносит повседневную носку, не вытягивается и сохраняет сочный цвет.
+                        Уютное платье из мягкого качественного льна. Отлично переносит повседневную носку, жару не вытягивается и сохраняет цвет.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 4 дня</span>
@@ -233,10 +233,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Декорирование и ручная вышивка
+                        Вечернее платье
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Эксклюзивное украшение готового изделия бусинами, стразами и элементами ручной вышивки. Превратили базовую вещь в уникальный арт-объект.
+                        Вечернее платье эксклюзивного пошива, с открытой спиной.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 3 дня</span>
@@ -253,10 +253,10 @@
                 </div>
                 <div class="p-6 flex flex-col flex-grow">
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
-                        Юбка солнце-клёш
+                        Юбка макси
                     </h3>
                     <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
-                        Пышная и летящая юбка-солнце из легкой ткани. Идеально скроенный по косой подол ложится красивыми крупными волнами.
+                        Юбка макси с разрезом по боку.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">
                         <span>🗓️ Срок: 3 дня</span>
