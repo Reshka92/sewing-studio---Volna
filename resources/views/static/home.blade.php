@@ -1,5 +1,5 @@
 @extends('layouts/main')
-<!-- commit 26/07 -->
+
 @section('content')
 <!-- Главный фон теперь полностью в глубокой фирменной синей палитке #1E295D с мягкими переливами -->
 <main class="min-h-screen bg-gradient-to-b from-[#1E295D] via-[#1A2352] to-[#1E295D] text-white relative overflow-hidden">
@@ -248,4 +248,5 @@
     @endif
 
 </main>
+<div></div>
 @endsection
