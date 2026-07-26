@@ -1,50 +1,56 @@
-@extends('layouts/main')
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('header-title', 'Ателье Волна')</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-{{-- Заголовок вкладки в браузере --}}
-@section('header-title', 'Наши работы / Сообщения')
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="font-roboto bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
 
-{{-- Основной контент страницы --}}
-@section('content')
-<div class="py-12 bg-gray-50 min-h-screen">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        <!-- Заголовок на странице -->
-        <div class="text-center mb-12">
-            <h1 class="text-3xl font-extrabold text-gray-950 sm:text-4xl">
-                Список полученных заявок
-            </h1>
-            <p class="mt-2 text-sm text-gray-500">
-                Всего найдено записей в базе данных: {{ $messages->count() }}
-            </p>
-        </div>
-
-        <!-- Список карточек -->
-        <div class="space-y-4">
-            @foreach($messages as $message)
-                <div class="bg-white shadow-sm hover:shadow-md transition rounded-xl border border-gray-200 p-6 flex justify-between items-center">
-                    
-                    <div>
-                        <!-- Выводим Имя клиента -->
-                        <h3 class="text-lg font-bold text-[#31469F] flex items-center gap-2">
-                            <span>👤</span> {{ $message->name ?? 'Без имени' }}
-                        </h3>
-                        
-                        <!-- Выводим Номер -->
-                        <p class="mt-2 text-sm font-medium text-gray-600 flex items-center gap-2">
-                            <span class="text-gray-400">📞 Номер:</span> 
-                            <span class="text-gray-900 font-semibold">{{ $message->number }}</span>
-                        </p>
-                    </div>
-
-                    <!-- ID записи в углу -->
-                    <span class="text-xs font-semibold text-gray-400 bg-gray-100 px-3 py-1.5 rounded-lg border border-gray-200">
-                        ID: {{ $message->id }}
-                    </span>
-
+    <header class="sticky top-0 z-40 w-full bg-[#31469F]/95 backdrop-blur-md text-white shadow-lg transition-all border-b border-blue-800/40"> 
+        <div class="container mx-auto flex items-center justify-between px-4 py-3.5">
+            
+            <!-- Логотип -->
+            <a href="{{ route('home') }}" class="flex items-center gap-2 group">
+                <div class="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center border border-white/20 group-hover:bg-white/20 transition">
+                    <svg class="w-5 h-5 text-blue-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
                 </div>
-            @endforeach
-        </div>
+                <span class="font-black text-2xl tracking-wider text-white group-hover:text-blue-100 transition">ВОЛНА</span> 
+            </a>
+            
+            <!-- Навигация -->
+            <nav class="hidden md:flex items-center space-x-1 lg:space-x-2">
+                <a href="{{ route('home') }}" class="px-4 py-2 rounded-md text-sm font-medium hover:bg-white/10 hover:text-blue-100 transition {{ request()->routeIs('home') ? 'bg-white/15 text-white font-semibold' : 'text-blue-50' }}">Главная</a>
+                <a href="{{ route('about') }}" class="px-4 py-2 rounded-md text-sm font-medium text-blue-50 hover:bg-white/10 hover:text-blue-100 transition">О нас</a>
+                <a href="{{ route('works') }}" class="px-4 py-2 rounded-md text-sm font-medium text-blue-50 hover:bg-white/10 hover:text-blue-100 transition">Работы</a>
+                <a href="{{ route('prices') }}" class="px-4 py-2 rounded-md text-sm font-medium text-blue-50 hover:bg-white/10 hover:text-blue-100 transition">Цены</a>
+                <a href="{{ route('contacts') }}" class="px-4 py-2 rounded-md text-sm font-medium text-blue-50 hover:bg-white/10 hover:text-blue-100 transition">Контакты</a>
+            </nav>
+            
+            <!-- Контакты -->
+            <div class="text-right">
+                <a href="tel:+79780403149" class="font-bold text-lg tracking-tight text-white hover:text-blue-200 transition block leading-tight">
+                    +7 978 040-31-49
+                </a>
+                <span class="text-xs text-blue-200/90 flex items-center justify-end gap-1">
+                    <svg class="w-3 h-3 inline-block opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    ул. Хрусталёва, 139
+                </span>
+            </div>
 
+        </div>
+    </header>
+
+    <div class="flex-grow">
+        @yield('content')
     </div>
-</div>
-@endsection
+
+</body>
+</html>
