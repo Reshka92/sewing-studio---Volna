@@ -136,7 +136,7 @@
                     </span>
                     <h3 class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">Ждем вас в Севастополе</h3>
                     <p class="text-blue-100/80 max-w-md text-sm md:text-base font-light leading-relaxed">
-                        ул. Хрусталёва, 139. Возле здания находится свободная парковка — у вас не будет проблем с поиском места.
+                        ул. Острякова, 244. Возле здания находится свободная парковка — у вас не будет проблем с поиском места.
                     </p>
                 </div>
 

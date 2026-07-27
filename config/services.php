@@ -32,12 +32,6 @@ return [
         'admin_id' => env('VK_ADMIN_ID'), 
     ],
 
-    'vk' => [
-        'token' =>env('VK_NOTIFICATION_TOKEN'),
-        'adminId' =>env('AdminId'),
-
-    ],
-
     'slack' => [
         'notifications' => [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),

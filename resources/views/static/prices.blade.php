@@ -36,35 +36,35 @@
                 <ul class="divide-y divide-blue-800/40">
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">В подгибку на машинке</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">500 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 500 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">С подшивкой вручную</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">600 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 600 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">С тесьмой и подшивкой вручную</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">700 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 700 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Трикотажных брюк</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">600 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 600 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Брюк и шорт с манжетом, разрезами</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">600 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 600 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Спортивных брюк с молнией, резинкой по низу</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">700 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 700 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Болоньевых с подкладом / на молнии</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">800 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 800 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Джинсы</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">500 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 500 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Джинсы клеш</span>
@@ -72,7 +72,7 @@
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Джинсы с сохранением фабричного шва</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">800 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 800 ₽</span>
                     </li>
                 </ul>
             </div>
@@ -88,7 +88,7 @@
                 <ul class="divide-y divide-blue-800/40">
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Без подклада</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">600 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 600 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">С подкладом, разрезом, шлицей</span>
@@ -96,7 +96,7 @@
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Солнце, полусолнце</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">1000 - 1200 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 1000 - 1200 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Трикотажные изделия</span>
@@ -116,15 +116,15 @@
                 <ul class="divide-y divide-blue-800/40">
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Жакет без подклада</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">800 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 800 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Жакет на подкладе</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">1200 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 1200 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Мужской пиджак (со шлицей)</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">1500 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 1500 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Д/с плащ</span>
@@ -136,7 +136,7 @@
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Пальто с утеплителем</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">1500 - 1800 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 1500 - 1800 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Плащ кожаный</span>
@@ -164,11 +164,11 @@
                 <ul class="divide-y divide-blue-800/40">
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Рукава без подклада</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">600 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 600 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Блуза с манжетом, на резинке</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">800 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 800 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Рукава с молнией</span>
@@ -176,7 +176,7 @@
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Жакет без подклада</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">800 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 800 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Жакет на подкладе со шлицей, манжетом</span>
@@ -184,15 +184,15 @@
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Куртка обычный низ</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">1200 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 1200 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Куртка с манжетом и резинкой</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">1200 - 1500 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 1200 - 1500 ₽</span>
                     </li>
                     <li class="px-6 py-4 flex justify-between items-center hover:bg-white/5 transition duration-200">
                         <span class="text-sm sm:text-base font-medium text-blue-100/90">Пальто обычный низ рукава</span>
-                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">800 ₽</span>
+                        <span class="text-sm font-bold text-blue-200 bg-blue-500/20 border border-blue-400/30 px-3.5 py-1.5 rounded-xl backdrop-blur-sm shadow-sm">от 800 ₽</span>
                     </li>
                 </ul>
             </div>
