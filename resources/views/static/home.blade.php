@@ -72,7 +72,7 @@
                     </div>
                     <div>
                         <h3 class="font-bold text-white text-lg mb-1">Удобное место</h3>
-                        <p class="text-blue-200/70 text-sm leading-relaxed">Севастополь, ул. Хрусталёва, 139 (свободная парковка).</p>
+                        <p class="text-blue-200/70 text-sm leading-relaxed">Севастополь, ул. Острякова 244 (свободная парковка).</p>
                     </div>
                 </div>
 
