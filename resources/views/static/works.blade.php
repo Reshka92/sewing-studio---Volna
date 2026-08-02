@@ -51,7 +51,7 @@
                     <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
                         Платье вечернее из атласа
                     </h3>
-                    <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaЫxed">
+                    <p class="mt-3 text-sm text-blue-100 flex-grow leading-relaxed">
                         Легкое, воздушное повседневное платье. Свободный крой, не стесняющий движений, и нежная дышащая подкладка.
                     </p>
                     <div class="mt-6 pt-4 border-t border-blue-900/40 flex justify-between items-center text-xs text-blue-300/70">

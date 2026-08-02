@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Профессиональное швейное ателье «Волна» в Севастополе по адресу Острякова 144. Качественный ремонт одежды, пошив на заказ. Узнать цены и заказать услуги." content="width=device-width, initial-scale=1.0">
     <title>@yield('header-title', 'Ателье Волна')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -88,4 +88,20 @@
     </main>
 
 </body>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Швейное ателье Волна",
+  "image": "https://твой-домен.ru/images/work6-6.jpg",
+  "description": "Профессиональный ремонт и пошив одежды в Севастополе.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Севастополь",
+    "streetAddress": "Улица Острякова, д. 144" 
+  },
+  "telephone": "+79780403149",
+  "priceRange": "₽₽"
+}
+</script>
 </html>

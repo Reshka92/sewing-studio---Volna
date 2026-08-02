@@ -1,0 +1,17 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CkKdhvuL.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DMRtMKZ6.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/views/fonts/Roboto_Condensed-Black.ttf": {
+    "file": "assets/Roboto_Condensed-Black-DuxYUQDM.ttf",
+    "src": "resources/views/fonts/Roboto_Condensed-Black.ttf"
+  }
+}
