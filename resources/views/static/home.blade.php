@@ -248,5 +248,5 @@
     @endif
 
 </main>
-<div></div>
+
 @endsection
