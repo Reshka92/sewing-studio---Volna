@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-<meta name="description" content="Профессиональное швейное ателье «Волна» в Севастополе по адресу Острякова 144. Качественный ремонт одежды, пошив на заказ. Узнать цены и заказать услуги.">
-    <title>@yield('header-title', 'Ателье Волна')</title>
+<meta name="description" content="Швейное ателье «Волна» в Севастополе. Профессиональный ремонт одежды, пошив на заказ, подгонка по фигуре по адресу ул. Генерала Острякова, 144. Доступные цены, высокое качество.">
+<title>@yield('header-title', 'Швейное ателье в Севастополе | «Волна» — пошив и ремонт одежды')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <link rel="preconnect" href="https://fonts.googleapis.com">

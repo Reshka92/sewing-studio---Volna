@@ -22,7 +22,7 @@
             </span>
 
             <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-                Ателье «Волна»: <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-white">пошив и ремонт</span> одежды
+                Швейное ателье «Волна»: <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-white">пошив и ремонт</span> одежды
             </h1>
 
             <p class="text-base md:text-xl text-blue-100/90 mb-10 max-w-2xl mx-auto font-light leading-relaxed">

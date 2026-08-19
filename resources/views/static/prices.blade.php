@@ -1,5 +1,5 @@
 @extends('layouts/main')
-
+@section('header-title', 'Цены на пошив и ремонт одежды | Ателье «Волна» Севастополь')
 @section('content')
 <div class="py-16 bg-gradient-to-b from-[#1E295D] via-[#1A2352] to-[#1E295D] min-h-screen text-white relative overflow-hidden">
     

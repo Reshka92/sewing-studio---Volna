@@ -1,5 +1,5 @@
 @extends('layouts/main')
-
+@section('header-title', 'Контакты и адрес ателье «Волна» в Севастополе')
 @section('content')
 <div class="py-16 bg-gradient-to-b from-[#1E295D] via-[#1A2352] to-[#1E295D] min-h-screen text-white relative overflow-hidden">
     
@@ -55,7 +55,7 @@
                     </div>
                 </div>
 
-                <a href="https://t.me/79780403149" target="_blank" class="w-full bg-sky-500 hover:bg-sky-400 text-white font-bold py-3.5 rounded-xl transition text-center shadow-lg shadow-sky-500/30 block">
+                <a href="https://t.me/79787044775" target="_blank" class="w-full bg-sky-500 hover:bg-sky-400 text-white font-bold py-3.5 rounded-xl transition text-center shadow-lg shadow-sky-500/30 block">
                     Открыть Telegram
                 </a>
             </div>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
 
-                <a href="https://wa.me/79780403149" target="_blank" class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold py-3.5 rounded-xl transition text-center shadow-lg shadow-indigo-500/30 block border border-blue-400/20">
+                <a href="https://wa.me/79787044775" target="_blank" class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold py-3.5 rounded-xl transition text-center shadow-lg shadow-indigo-500/30 block border border-blue-400/20">
                     Связаться с Maks
                 </a>
             </div>
@@ -113,13 +113,13 @@
 
                     <div class="bg-[#1E295D]/80 border border-blue-400/20 rounded-2xl p-5 text-center mb-6 backdrop-blur-sm">
                         <span class="text-[11px] text-blue-300/80 uppercase tracking-wider font-semibold block mb-1">Рабочий номер:</span>
-                        <a href="tel:+79780403149" class="text-xl sm:text-2xl font-black text-white hover:text-emerald-300 tracking-tight block transition duration-200">
-                            +7 (978) 040-31-49
+                        <a href="tel:+79787044775" class="text-xl sm:text-2xl font-black text-white hover:text-emerald-300 tracking-tight block transition duration-200">
+                            +7 (978) 704-47-75
                         </a>
                     </div>
                 </div>
 
-                <a href="tel:+79780403149" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 rounded-xl transition text-center shadow-lg shadow-emerald-600/30 block">
+                <a href="tel:+79787044775" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 rounded-xl transition text-center shadow-lg shadow-emerald-600/30 block">
                     Позвонить сейчас
                 </a>
             </div>

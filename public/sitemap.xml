@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://memoboost.ru.swtest.ru/</loc>
+    <loc>https://memoboost.ru</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://memoboost.ru.swtest.ru/about</loc>
+    <loc>https://memoboost.ru/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://memoboost.ru.swtest.ru/contacts</loc>
+    <loc>https://memoboost.ru/contacts</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://memoboost.ru.swtest.ru/prices</loc>
+    <loc>https://memoboost.ru/prices</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://memoboost.ru.swtest.ru/works</loc>
+    <loc>https://memoboost.ru/works</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
